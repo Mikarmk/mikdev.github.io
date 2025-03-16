@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мурат Каримов | Digital Product Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div id="bg-particles" class="bg-particles"></div>
+    
+    <div class="scan-line"></div>
+    
+    <!-- <div class="game-status">
+        <div>DESIGN LEVEL</div>
+        <div class="status-bar">
+            <div class="status-fill"></div>
+        </div>
+        <div>UX KNOWLEDGE</div>
+        <div class="status-bar">
+            <div class="status-fill"></div>
+        </div>
+        <div>CREATIVITY</div>
+        <div class="status-bar">
+            <div class="status-fill" style="width: 90%"></div>
+        </div>
+        <div>EXPERIENCE</div>
+        <div class="status-bar experience-bar">
+            <div class="status-fill"></div>
+        </div>
+    </div> -->
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html" class="logo-text">mikarmk</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#works" class="nav-link">Работы</a>
+                    <a href="#about" class="nav-link">Обо мне</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        <span>Открыт к работе</span>
+                    </div>
+                    <a href="#contact" class="btn primary-btn">Связаться</a>
+                </div>
+                <div class="menu-toggle">
+                    <div class="hamburger"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="greeting">Доброе, <span class="emoji">🔮💌🏄‍♂️</span></div>
+                <h1 class="hero-title">Я, Мурат Каримов</h1>
+                <h2 class="hero-subtitle">Digital Product Designer</h2>
+                <p class="hero-description">4 года опыта в дизайне и из которых один год коммерческий, но честное слово, не надоело</p>
+                <a href="#contact" class="btn primary-btn">Написать мне в тг</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/works/hero.gif" alt="Мурат Каримов" id="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="clients" id="clients">
+        <div class="container">
+            <h2 class="section-title">Работал проектами компаний:</h2>
+            <div class="clients-grid">
+                <div class="client">IBR</div>
+                <div class="client">Портал поставщиков</div>
+                <div class="client">Robosoft</div>
+                <div class="client">Академия наук</div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="works" id="works">
+        <div class="container">
+            <h2 class="section-title">Последние работы</h2>
+            <div class="works-grid">
+                <a href="projects/iketel.html" class="work-item">
+                    <div class="work-image">
+                        <img src="assets/works/iketel-preview.png" alt="Iketel Project">
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Iketel</h3>
+                        <p class="work-description">Игровое приложение для детей по изучению татарского языка</p>
+                        <div class="tags">
+                            <span class="tag">UX/UI Дизайн</span>
+                            <span class="tag">Игровой дизайн</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="projects/tut-lms.html" class="work-item">
+                    <div class="work-image">
+                        <img src="assets/works/Tut-Quest-preview.png" alt="Tut-lms Project">
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Tut-lms</h3>
+                        <p class="work-description">LMS с ИИ-менторами и генерацией курсов</p>
+                        <div class="tags">
+                            <span class="tag">UX/UI Дизайн</span>
+                            <span class="tag">Исследования</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="projects/portal-supplier.html" class="work-item">
+                    <div class="work-image">
+                        <img src="assets/works/portal-supplier-preview.jpg" alt="Portal Supplier Project">
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Портал поставщиков</h3>
+                        <p class="work-description">Разработка маскота для платформы гос закупок</p>
+                        <div class="tags">
+                            <span class="tag">UI Дизайн</span>
+                            <span class="tag">Character Design</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="projects/hackathon.html" class="work-item">
+                    <div class="work-image">
+                        <img src="assets/works/hackathon-preview.jpg" alt="Hackathon Project">
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Хакатоны</h3>
+                        <p class="work-description">Сборник лучших проектов с хакатонов</p>
+                        <div class="tags">
+                            <span class="tag">UX/UI Дизайн</span>
+                            <span class="tag">Прототипирование</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я Мурат — Digital Product Designer с более чем 3-летним опытом проектирования пользовательских интерфейсов и созданием комплексных дизайн-систем. Моя специализация — разработка интуитивно понятных и эстетически привлекательных цифровых продуктов, которые решают реальные проблемы пользователей.</p>
+                    
+                    <p>Мой подход к дизайну основан на глубоком понимании потребностей пользователей, тщательном исследовании и итеративном процессе проектирования. Я уделяю особое внимание деталям и стремлюсь создавать продукты, которые не только выглядят отлично, но и обеспечивают исключительный пользовательский опыт.</p>
+                    
+                    <div class="experience">
+                        <h3>Опыт работы</h3>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Senior UX/UI Designer</h4>
+                                <span class="company">Agency Analytics</span>
+                                <span class="period">2023 — настоящее время</span>
+                            </div>
+                            <p>Руководство дизайн-командой, разработка и внедрение дизайн-системы, проведение пользовательских исследований, создание прототипов и тестирование интерфейсов.</p>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>UX/UI Designer</h4>
+                                <span class="company">GBG</span>
+                                <span class="period">2022 — 2023</span>
+                            </div>
+                            <p>Проектирование и оптимизация пользовательских интерфейсов для финтех-продуктов, разработка интерактивных прототипов, проведение А/B тестирований.</p>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Junior UI Designer</h4>
+                                <span class="company">Aspire</span>
+                                <span class="period">2021 — 2022</span>
+                            </div>
+                            <p>Создание визуальных элементов интерфейса, иллюстраций и иконок, поддержка и развитие бренда, работа с дизайн-системой.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-achievements">
+                    <div>
+                        <h3>Навыки</h3>
+                        <div class="skills-group">
+                            <h4>Инструменты</h4>
+                            <div class="skills-list">
+                                <div class="skill">Figma</div>
+                                <div class="skill">Adobe XD</div>
+                                <div class="skill">Sketch</div>
+                                <div class="skill">Photoshop</div>
+                                <div class="skill">Illustrator</div>
+                                <div class="skill">After Effects</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-group">
+                            <h4>Дизайн</h4>
+                            <div class="skills-list">
+                                <div class="skill">UI/UX Design</div>
+                                <div class="skill">Design Systems</div>
+                                <div class="skill">Wireframing</div>
+                                <div class="skill">Prototyping</div>
+                                <div class="skill">Responsive Design</div>
+                                <div class="skill">Animation</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-group">
+                            <h4>Дополнительно</h4>
+                            <div class="skills-list">
+                                <div class="skill">HTML/CSS</div>
+                                <div class="skill">User Research</div>
+                                <div class="skill">Usability Testing</div>
+                                <div class="skill">Agile/Scrum</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3>Достижения</h3>
+                        <ul class="achievements-list">
+                            <li>
+                                <span class="achievement-name">KAZAN DIGITAL LEGENDS</span>
+                                <span class="achievement-place">1 место (2024)</span>
+                            </li>
+                            <li>
+                                <span class="achievement-name">Хакатон Art Science</span>
+                                <span class="achievement-place">1 место (2024)</span>
+                            </li>
+                            <li>
+                                <span class="achievement-name">Tatar.Бу Хакатон</span>
+                                <span class="achievement-place">1 место (2024)</span>
+                            </li>
+                            <li>
+                                <span class="achievement-name">Весенний Хакатон</span>
+                                <span class="achievement-place">1 место (2024)</span>
+                            </li>
+                            <li>
+                                <span class="achievement-name">TenderHack (UX/UI)</span>
+                                <span class="achievement-place">3 место (2024)</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="finalists">
+                            <h4>Финалист:</h4>
+                            <ul>
+                                <li>MTS True Tech Champ (2023)</li>
+                                <li>ДвижИТ (Пенза) (2023)</li>
+                                <li>Kazan Digital Transformation (2024)</li>
+                                <li>Зеленый код Москвы (2024)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mikarkari@gmail.com">mikarkari@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <a href="https://t.me/mikarmk">@mikarmk</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-behance"></i>
+                        <a href="https://www.behance.net/muratkarimov" target="_blank">@muratkarimov</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/mikarmk" target="_blank">@mikarmk</a>
+                    </div>
+                </div>
+                
+                <div class="telegram-cta">
+                    <h3>Нужен дизайнер в команду?</h3>
+                    <p>Я всегда открыт к интересным предложениям и новым проектам. Давайте обсудим, как я могу помочь вашему бизнесу!</p>
+                    <a href="https://t.me/mikarmk" class="telegram-btn" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                        Написать в Телеграм
+                    </a>
+                    <p class="response-time">Быстрее всего отвечаю там</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-text">mikarmk</a>
+                </div>
+                <p>Digital Product Designer</p>
+                <p class="copyright">© 2024 Мурат Каримов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
