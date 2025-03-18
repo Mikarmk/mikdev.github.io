@@ -396,6 +396,8 @@ window.addEventListener('DOMContentLoaded', () => {
     // Works section animations
     document.querySelectorAll('.work-item').forEach(work => {
         work.classList.add('fade-up');
+        // Сразу добавляем класс animate для немедленного отображения
+        work.classList.add('animate');
     });
     
     // About section animations
@@ -511,8 +513,8 @@ if (typeof gsap !== 'undefined') {
                 start: "top 70%",
                 toggleActions: "play none none none"
             },
-            opacity: 0,
-            y: 50,
+            opacity: 1,
+            y: 0,
             stagger: 0.15,
             duration: 0.8,
             ease: "back.out(1.5)"
